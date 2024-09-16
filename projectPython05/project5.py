@@ -9,7 +9,7 @@ url = 'https://api.baselinker.com/connector.php'
 
 # Parametry w formacie JSON
 parameters = {
-    'order_status_id': "118416",
+    'order_status_id': "118418",
     'currency': 'PLN',
     'email': 'klient@example.com',
     'delivery_fullname': 'Jan Kowalski',
@@ -35,3 +35,4 @@ if response.status_code == 200:
     print('Sukces:', response.json())
 else:
     print('Błąd:', response.status_code, response.text)
+
