@@ -9,7 +9,7 @@ url = 'https://api.baselinker.com/connector.php'
 
 # Parametry w formacie JSON
 parameters = {
-    'product_id': '100967406'     # ID produktu do usunięcia
+    'product_id': '108343700'     # ID produktu do usunięcia
 }
 
 # Dane do wysłania w żądaniu POST
