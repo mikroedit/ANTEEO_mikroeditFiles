@@ -12,7 +12,7 @@ url = 'https://api.baselinker.com/connector.php'
 order_id = '4275688'
 
 # Wczytanie obrazu
-with open("C:\\mikroeditFiles\\baselinkerFiles\\box\\paczka.png", "rb") as image_file:
+with open("C:\\mikroeditFiles\\00baselinkerFiles\\box\\paczka.png", "rb") as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
 
 # Dodanie prefiksu "data:"
