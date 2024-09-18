@@ -6,7 +6,7 @@ class fieldsData:
     # ID ZAMÓWIENIA
     order_id = '4283842'
     # ŚCIEŻKA DO ZDJĘCIA
-    box_image = r'C:\mikroeditFiles\00baselinkerFiles\box\crashbox3.jpg'
+    box_image = r'C:\mikroeditFiles\00baselinkerFiles\box\DHLpackage.jpg'
     # TYTUŁ PLIKU
     title = 'TWOJA PACZKA'
     # ID DODATKOWEGO POLA
