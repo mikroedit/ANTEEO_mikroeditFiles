@@ -20,17 +20,17 @@ stock_id = inventories_data['inventories'][1]['warehouses'][0] #bl_44450
 category_id = categories_data['categories'][0]['category_id'] #1490203
 
 # Przykładowe wartości dla produktu
-price = 20
+price = 100
 stock_amount = 10
 name_product = "CREWNECK"
-description = "Gray crewneck"
+description = "Dark gray crewneck"
 
 # wczytanie obrazu
-with open("C:\\mikroeditFiles\\00baselinkerFiles\\clothes\\crewneck1.png", "rb") as image_file:
+with open(r"C:\mikroeditFiles\00baselinkerFiles\clothes\crewneck1", "rb") as image_file:
     encoded_image = base64.b64encode(image_file.read()).decode('utf-8')
 
 # Dodanie prefiksu "data:image/png;base64,"
-encoded_image = "data:image/png;base64," + encoded_image
+encoded_image = "data:" + encoded_image
 
 # Parametry w formacie JSON
 parameters = {
