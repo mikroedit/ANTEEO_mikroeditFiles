@@ -9,7 +9,7 @@ class Data:
     order_id = '4301558'
 
     # ścieżka do pliku zdjęcia
-    box_image = r'C:\mikroeditFiles\00baselinkerFiles\box\DHLpackage.png'
+    box_image = r'C:\mikroeditFiles\00baselinkerFiles\box\DHLpackage.jpg'
 
     # tytuł pliku zdjęcia
     title = 'TWOJA PACZKA'
