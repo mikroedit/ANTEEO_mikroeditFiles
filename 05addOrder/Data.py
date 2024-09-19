@@ -16,7 +16,7 @@ class personData:
     status_id = wyslane
     currency = 'PLN'
     email = 'klient@example.com'
-    fullname = 'Jan Kowalski'
+    fullname = 'Kacper Warszyński'
     address = 'ul. Przykładowa 1'
     postcode = '00-000'
     city = 'Warszawa'
@@ -24,17 +24,17 @@ class personData:
     comments = 'Opis zamówienia!!!'
 
 class orderData:
-    order_id = 4283842
+    order_id = 4301533
     storage = "db"
     storage_id = 0
-    product_id = crewneck
+    product_id = hoodie
     # variant_id = 52124
-    name = "CREWNECK"
+    name = "HOODIE"
     # sku = ""
     # ean = ""
     # location = "A1-13-7"
     # attributes = "colour red"
-    price_brutto = 100
+    price_brutto = 80
     tax_rate = 23
     amount = 1
     # weight = 1
