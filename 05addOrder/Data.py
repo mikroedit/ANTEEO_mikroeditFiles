@@ -16,7 +16,7 @@ class personData:
     status_id = wyslane
     currency = 'PLN'
     email = 'klient@example.com'
-    fullname = 'Kacper Warszyński'
+    fullname = 'Michał Paul'
     address = 'ul. Przykładowa 1'
     postcode = '00-000'
     city = 'Warszawa'
