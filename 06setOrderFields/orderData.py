@@ -6,10 +6,10 @@ class Data:
     url = 'https://api.baselinker.com/connector.php' 
 
     # id zamówienia
-    order_id = '4302774'
+    order_id = '4301558'
 
     # ścieżka do pliku zdjęcia
-    box_image = r'C:\mikroeditFiles\00baselinkerFiles\box\3MBtest.png'
+    box_image = r'D:\projectsIT\visualStudio\ANTEEO_mikroeditFiles\00baselinkerFiles\box\3MBtest.png'
 
     # tytuł pliku zdjęcia
     title = 'TWOJA PACZKA'

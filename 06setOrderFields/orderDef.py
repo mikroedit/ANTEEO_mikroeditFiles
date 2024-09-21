@@ -82,7 +82,7 @@ class orderFunctions:
         # funkcja google1
         def authenticate_google_drive():
             SCOPES = ['https://www.googleapis.com/auth/drive.file']
-            SERVICE_ACCOUNT_FILE = r'C:\Users\Admin\Documents\principal-fact-436109-r8-51df4c2c472c.json'
+            SERVICE_ACCOUNT_FILE = r'E:\documents\principal-fact-436109-r8-19e15493df51.json'
 
             credentials = service_account.Credentials.from_service_account_file(
                 SERVICE_ACCOUNT_FILE, scopes=SCOPES)
